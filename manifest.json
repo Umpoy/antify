@@ -1,0 +1,17 @@
+{
+  "name": " Antify",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*cenafy*"],
+      "js": ["index.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["scary.mp4"],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ]
+}
